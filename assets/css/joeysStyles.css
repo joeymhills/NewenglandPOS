@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+.header-logo {
+transition: .7s;
+transform: scale(80%);
+position: fixed;
+top:1.15em;
+left: 0em;
+}
+
+.footer-logo {
+    display:block;
+    left:1em;
+}
+
+
+.home h1 {
+    clear: both;
+    color: #1C2528;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Video center */
+
+.video-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+}
+
+.video-bg {
+    background: linear-gradient(to bottom left, #a8dadc, white);
+
+}
+
+.video-bg h1 {
+    padding: 3.5em 0 2em 0;
+}
